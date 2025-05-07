@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#FFF5F5F5">
+
+    <!-- Sign In title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="140dp"/>
+
+    <!-- Profile photo placeholder -->
+
+    <ImageView
+        android:layout_width="290dp"
+        android:layout_height="270dp"
+        android:layout_marginBottom="50dp"
+        android:background="#CCCCCC"
+        android:scaleType="centerCrop"
+        android:src="@drawable/Image_1" />
+
+    <!-- Total field -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:background="@drawable/edittextborder"
+        android:layout_marginBottom="15dp"
+        android:padding="12dp"/> <!-- Add padding for better text visibility -->
+
+    <!-- Password field -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:background="@drawable/edittextborder"
+        android:layout_marginBottom="32dp"
+        android:padding="12dp"/>
+
+    <!-- Sign up button -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:background="@drawable/buttonbackground"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Footer text -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot your password!"
+        android:textSize="12sp"
+        android:padding_bottom="12dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="New User! Create an account"
+        android:textSize="14sp"/>
+
+</LinearLayout>
