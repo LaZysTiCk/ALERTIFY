@@ -4,13 +4,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="24dp"
-    android:background="#FFFFFF"
+    android:background="#4b5ae4"
     android:gravity="center_horizontal">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="AlertiFy"
+        android:text="ALERTIFY"
         android:textSize="28sp"
         android:textStyle="bold"
         android:textColor="#000000"
@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:text="Stay safe. Stay connected."
         android:textSize="14sp"
-        android:textColor="#666666"
+        android:textColor="#000000"
         android:layout_marginBottom="40dp"/>
 
     <!-- Name Field -->
@@ -33,7 +33,6 @@
         android:hint="Name"
         android:background="@drawable/edittextborder"
         android:padding="16dp"
-
         android:layout_marginBottom="16dp"/>
 
     <!-- Phone Field -->

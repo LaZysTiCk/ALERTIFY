@@ -3,16 +3,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
-    android:background="@color/white">
+    android:background="#4b5ae4">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:padding="16dp">
-
-
-        <!-- Add your title content here if needed -->
 
         <!-- 🆘 Emergency Feature Grid -->
         <GridLayout
@@ -30,7 +27,7 @@
                 android:layout_columnWeight="1"
                 android:orientation="vertical"
                 android:gravity="center"
-                android:padding="dp">
+                android:padding="8dp">
 
                 <ImageView
                     android:layout_width="match_parent"
@@ -38,9 +35,7 @@
                     android:adjustViewBounds="true"
                     android:scaleType="fitCenter"
                     android:background="@drawable/roundedcorner"
-                    android:src="@drawable/assest1"/>
-
-
+                    android:src="@drawable/assest1" />
             </LinearLayout>
 
             <!-- Repeat similar blocks for other services -->
@@ -52,8 +47,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:background="@drawable/banner_bg"
-            android:padding="8dp"
-            >
+            android:padding="8dp">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -61,8 +55,8 @@
                 android:text="What do you need?"
                 android:textStyle="bold"
                 android:textSize="18sp"
-                android:layout_marginBottom="3dp"
-                />
+                android:layout_marginBottom="3dp" />
+
             <GridLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -79,7 +73,6 @@
                     android:orientation="vertical"
                     android:gravity="center"
                     android:background="@drawable/assest6"
-
                     android:padding="16dp"
                     android:layout_margin="4dp">
 
@@ -87,7 +80,7 @@
                         android:layout_width="75dp"
                         android:layout_height="75dp"
                         android:src="@drawable/assest3"
-                        android:scaleType="fitCenter"/>
+                        android:scaleType="fitCenter" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -95,7 +88,7 @@
                         android:text="NearBy Hospitals"
                         android:textStyle="bold"
                         android:textSize="15sp"
-                        android:paddingTop="8dp"/>
+                        android:paddingTop="8dp" />
                 </LinearLayout>
 
                 <!-- Emergency Contact -->
@@ -113,7 +106,7 @@
                         android:layout_width="70dp"
                         android:layout_height="70dp"
                         android:src="@drawable/assest4"
-                        android:scaleType="fitCenter"/>
+                        android:scaleType="fitCenter" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -121,7 +114,7 @@
                         android:text="First-Aid Tips"
                         android:textStyle="bold"
                         android:textSize="15sp"
-                        android:paddingTop="8dp"/>
+                        android:paddingTop="8dp" />
                 </LinearLayout>
 
                 <!-- Shake Detection -->
@@ -139,7 +132,7 @@
                         android:layout_width="75dp"
                         android:layout_height="75dp"
                         android:src="@drawable/assest5"
-                        android:scaleType="fitCenter"/>
+                        android:scaleType="fitCenter" />
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -147,7 +140,7 @@
                         android:text="Need Ambulance?"
                         android:textStyle="bold"
                         android:textSize="15sp"
-                        android:paddingTop="8dp"/>
+                        android:paddingTop="8dp" />
                 </LinearLayout>
 
                 <!-- Hospital Status -->
@@ -159,42 +152,40 @@
                     android:gravity="center"
                     android:background="@drawable/assest6"
                     android:padding="16dp"
-                    android:layout_margin="4dp"
-                    >
-
+                    android:layout_margin="4dp">
 
                     <ImageView
-                        android:layout_width="48dp"
-                        android:layout_height="48dp"
-                        android:src="@drawable/ic_hospital"
-                        android:scaleType="fitCenter"/>
+                        android:layout_width="84dp"
+                        android:layout_height="67dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/sos" />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Hospital Status"
+                        android:text="SOS"
                         android:textStyle="bold"
-                        android:textSize="14sp"
-                        android:paddingTop="8dp"/>
+                        android:textSize="16sp"
+                        android:paddingTop="8dp" />
                 </LinearLayout>
             </GridLayout>
         </LinearLayout>
 
         <!-- 🩺 Doctor List Header -->
         <LinearLayout
-            android:layout_width="375dp"
-            android:layout_height="180dp">
-        <!-- Add doctor list content here -->
-        <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="How It Works"
-            android:textStyle="bold"
-            android:textSize="20sp"
-            android:layout_marginLeft="6dp"
+            android:orientation="vertical"
+            android:paddingTop="16dp">
 
-            />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How It Works"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginLeft="6dp" />
         </LinearLayout>
+
     </LinearLayout>
 </ScrollView>
-
