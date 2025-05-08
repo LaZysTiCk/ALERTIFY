@@ -11,5 +11,5 @@
         android:color="#CCCCCC"/>
 
     <!-- Corner radius -->
-    <corners android:radius="16dp"/> <!-- Adjust this value for more/less rounding -->
+    <corners android:radius="16dp"/> 
 </shape>

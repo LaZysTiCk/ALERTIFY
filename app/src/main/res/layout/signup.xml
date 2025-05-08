@@ -7,7 +7,6 @@
     android:background="#FFFFFF"
     android:gravity="center_horizontal">
 
-    <!-- Dubai Care Logo/Title -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
